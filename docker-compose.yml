@@ -15,7 +15,7 @@ services:
     environment:
       DB_HOST: db
       DB_USER: root
-      DB_PASSWORD: 'gab'
+      DB_PASSWORD: 'ileana'
       DB_NAME: eventos
       DB_PORT: 3306
     networks:
@@ -28,9 +28,9 @@ services:
       - "3306"
     environment:
       MYSQL_DATABASE: eventos
-      MYSQL_USER: 'gab'
-      MYSQL_PASSWORD: 'pass'
-      MYSQL_ROOT_PASSWORD: 'pass'
+      MYSQL_USER: 'ileana'
+      MYSQL_PASSWORD: 'ile'
+      MYSQL_ROOT_PASSWORD: 'ile'
     volumes:      
       - ./database:/docker-entrypoint-initdb.d
       - ./mysql-data:/var/lib/mysql
@@ -45,9 +45,9 @@ services:
     ports:
       - "8080:80"
     environment:
-      MYSQL_USER: 'gab'
-      MYSQL_PASSWORD: 'pass'
-      MYSQL_ROOT_PASSWORD: 'pass'
+      MYSQL_USER: 'ileana'
+      MYSQL_PASSWORD: 'ile'
+      MYSQL_ROOT_PASSWORD: 'ile'
     networks:
       - app-network
 

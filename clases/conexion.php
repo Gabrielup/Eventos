@@ -10,8 +10,8 @@
 const DB_HOST = 'db'; // Dirección del servidor de la base de datos
 const DB_NAME = 'eventos'; // Nombre de la base de datos
 const DB_PORT = '3306'; // Puerto de la base de datos
-const DB_USER = 'gab'; // Usuario de la base de datos
-const DB_PASS = 'pass'; // Contraseña de la base de datos
+const DB_USER = 'ileana'; // Usuario de la base de datos
+const DB_PASS = 'ile'; // Contraseña de la base de datos
 
 /**
  * La clase Conexion contiene métodos para conectarse a una base de datos MySQL.
